@@ -10,7 +10,7 @@
 	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
   </head>
   <body>
-    <script src="todo.js"></script>
+    <script src="script.js"></script>
     <div>
         <ul id="ULhead">
             <li id="header"><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
@@ -20,31 +20,27 @@
             <li id="header" style="float:right"><a href="todo.html"><i class="fa fa-fw fa-tasks"></i>My Tasks</a></li>
         </ul>
     </div>
-      <h1>My Task List</h1>
-      <p class="project-overview"> Welcome! Begin by adding tasks and assigning them point values based on their difficulty/the time they take. We suggest that one minute of time might correspond to around one point. When you've completed a task, you will gain those points, allowing you to rise on the leaderboard in the groups you're in!</p>
-    <div id="myDIV" class="header">
-      <form id="info">
-        <input type="text" id="myInput" placeholder="Task Name..." required>
-        <input type="number" id="myValue" placeholder="Points">
-        <span type="button" onclick="newElement()" class="todoBtn" id="but">Add</span>  
-      </form><br><br><br>
-      <table class="tab">
-        <thead class="thead-light">
-          <tr>    
-            <th scope="col">Task</th>
-            <th scope="col">Value</th>
-            <th scope="col">Update</th>
-            <th scope="col">Dalete</th>
-          </tr>
-        </thead>
-        <tbody id=tab>
-        </tbody>
-      </table> 
-    </div>
-    <div id="tasks">
-    <ul id="myUL">
-        <li id="myLI">Add a task!</li>
-    </ul>
-    </div>
+    <h1>_ Group Leaderboard</h1>
+
+    <button /> <!--- button to join --->
+
+    <form><!--- form to invite someone --->
+        <p> Would you like to invite a friend? </p>
+        <p> Email to invite: <input class="email-signup" type="text" id="inviteEmail" type="email"/> </p>
+        <input type="submit" value="Invite!" />
+    </form>
+
+    <table>
+        <tr>
+            <th>Ranking</th>
+            <th>Member</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+    </table>
+
   </body>
 </html>

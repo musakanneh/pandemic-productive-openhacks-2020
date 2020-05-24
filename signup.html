@@ -4,27 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Open Hacks 2020</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" link href="style.css" rel="stylesheet" type="text/css" />
+    <!--firestore-->
+    <link rel="stylesheet" link href="login.css" rel="stylesheet" type="text/css" />
+	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
   </head>
   <body>
     <script src="script.js"></script>
     <div>
-        <ul>
-            <li ><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
-            <li style="float:right"><a href="signin.html">Sign In</a></li>
-            <li style="float:right"><a href="about.html">About</a></li>
-            <li style="float:right"><a href="leaderboard.html">Leaderboard</a></li>
-            <li style="float:right"><a href="todo.html">My Tasks</a></li>
+        <ul id="ULhead">
+            <li id="header"><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
+            <li id="header" style="float:right"><a href="signin.html"><i class="fa fa-fw fa-user"></i>Sign In</a></li>
+            <li id="header" style="float:right"><a href="about.html"><i class="fa fa-fw fa-info"></i>About</a></li>
+      
         </ul>
     </div>
+<div>
+    <div class="sign-in-cover">
     <h1> Sign Up </h1>
-    <form action="" method = "post" id="signup"> 
-        <div id="main">
-            <p> Email: <input type="text" name="email" type="email"/> </p>
-            <p> Password: <input type="password" name="password"/> </p>
-            <p> Confirm Password: <input type="password" name="confirm password"/> </p>
-            <p> <input type="submit" value="Create Account"/> </p>
-        </div>
+    <form method = "post" id="signup" action="javascript:save();"> 
+
+      
+      <div id="main">
+
+
+        <label for="uname"><b>Email</b></label>
+        <input class="email-signup" type="text" id="email" type="email" placeholder="Enter your email" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input input type="password" id="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw"><b>Confirm Password</b></label>
+        <input input type="password" id="password" placeholder="Enter Password" name="psw" required>
+          
+        <button class="submit-btn" type="submit" value="Create Account">Create Account
+        </button>
+      </div>
     </form>
+    </div>
+  </div>  
+	  <script src="app.js"></script>
   </body>
 </html>

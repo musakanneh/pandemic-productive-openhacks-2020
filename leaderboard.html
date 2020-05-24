@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width">
     <title>Open Hacks 2020</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
   </head>
   <body>
     <script src="script.js"></script>
     <div>
-        <ul>
-            <li ><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
-            <li style="float:right"><a href="signin.html">Sign In</a></li>
-            <li style="float:right"><a href="about.html">About</a></li>
-            <li style="float:right"><a href="leaderboard.html">Leaderboard</a></li>
-            <li style="float:right"><a href="todo.html">My Tasks</a></li>
+        <ul id="ULhead">
+            <li id="header"><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
+            <li id="header" style="float:right"><a href="signin.html"><i class="fa fa-fw fa-user"></i>Sign Out</a></li>
+            <li id="header" style="float:right"><a href="about1.html"><i class="fa fa-fw fa-info"></i>About</a></li>
+            <li id="header" style="float:right"><a href="leaderboard.html"><i class="fa fa-fw fa-align-justify"></i>Leaderboard</a></li>
+            <li id="header" style="float:right"><a href="todo.html"><i class="fa fa-fw fa-tasks"></i>My Tasks</a></li>
         </ul>
     </div>
     <h1>Leaderboard</h1>
@@ -25,13 +28,13 @@
         <tr>
             <th>Groups</th>
             <th>Members</th>
-            <th>Join</th>
+            <th>View</th>
             <th>Ranking</th>
         </tr>
         <tr>
             <td> Students</td>
             <td> </td>
-            <td> <button onclick="">Join</button></td>
+            <td> <a href="students.html">View</a></td>
     </table>
   </body>
 </html>

@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width">
     <title>Open Hacks 2020</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
   </head>
   <body>
     <script src="script.js"></script>
     <div>
-        <ul>
-            <li ><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
-            <li style="float:right"><a href="signin.html">Sign In</a></li>
-            <li style="float:right"><a href="about.html">About</a></li>
-            <li style="float:right"><a href="leaderboard.html">Leaderboard</a></li>
-            <li style="float:right"><a href="todo.html">My Tasks</a></li>
+        <ul id="ULhead">
+            <li id="header"><a href="index.html"><img src="logo.jpg" alt="logo" height="40" height="60"/></a></li>
+            <li id="header" style="float:right"><a href="signin.html"><i class="fa fa-fw fa-user"></i>Sign In</a></li>
+            <li id="header" style="float:right"><a href="about.html"><i class="fa fa-fw fa-info"></i>About</a></li>
         </ul>
     </div>
     <h1>Welcome to Pandemic Productive!</h1>
 
-    <p> Everyone is struggling during these tough times, and two major ways people are struggling is with human contact and productivity. Productive Pandemic provides both - join groups with your friends or people around the world, work on your tasks, and watch your productivity points increase on each group's leaderboard.</p>
-    <image src="logo.jpg" height="450" width="520" alt="logo"/>
+        <p class="about-us"> Everyone is struggling during these tough times, and two major ways people are struggling are with human contact and productivity. Productive Pandemic provides both - join groups with your friends or people around the world, work on your tasks, and watch your productivity points increase on each group's leaderboard.</p>
+
+
+<div class="flex-come-content">
+  <div class="index-img">
+    <image src="logo.jpg" height="400" alt="logo"/>
+  </div>
+  
+  
+</div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script> 
+<!-- ignore the above for now sorry -->
   </body>
 </html>
