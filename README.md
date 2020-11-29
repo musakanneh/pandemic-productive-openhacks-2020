@@ -1,4 +1,4 @@
-# TeamHack-OpenHacks-2020
+# OpenHacks-2020
 Organized by: [Major League Hacking](https://mlh.io/)
 
 ## Inspiration
