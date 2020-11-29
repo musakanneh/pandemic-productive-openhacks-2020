@@ -30,3 +30,6 @@ css, firebase, html, javascript, and sql
 
 ## Try it Out:
 [pandemic-productive](http://hamlessforce.online/)
+
+### You can also hear us out:
+[YouTube](https://www.youtube.com/watch?v=zxN6qcu3yU8&feature=youtu.be)
