@@ -1,4 +1,5 @@
-# team-hack-openhacks-2020
+# TeamHack-OpenHacks-2020
+Organized by: [Major League Hacking](https://mlh.io/)
 
 ## Inspiration
 With the advent of coronavirus, many people have been stuck at home separated from friends and family. Many people have also found a general decrease in productivity. People feel lonely, depressed, and unmotivated. When many things have become significantly harder, it is difficult to find motivation to do everyday tasks. This was our inspiration for Pandemic Productive.
