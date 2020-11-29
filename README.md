@@ -24,9 +24,8 @@ We'd like to add a system that the user can opt into that produces a notificatio
 ## Built With
 
 ``` BAHS
-css
-firebase
-html
-javascript
-sql
+css firebase html javascript sql
 ```
+
+## Try it Out:
+[pandemic-productive](http://hamlessforce.online/)
